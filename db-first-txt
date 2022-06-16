@@ -1,0 +1,16 @@
+CARS
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+brand - VARCHAR(32) - NOTNULL
+model - VARCHAR(128) - NOTNULL
+year - YEAR - NOTNULL
+fuel - VARCHAR(16) - NOTNULL
+price - MEDIUMINT - UNSIGNED - NULL
+horsepower - SMALLINT - UNSIGNED - NULL
+owners_number - TINYINT
+description - TEXT - NULL
+transmission - VARCHAR(16) - NOTNULL
+doors - TINYINT - UNSIGNED - NOTNULL
+damaged - TINYINT - NOTNULL
+thousand_km - SMALLINT - NOTNULL
+picture - TEXT - NOTNULL - DEFAULT("/***.jpg");
